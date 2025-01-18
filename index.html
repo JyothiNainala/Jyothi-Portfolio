@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naga Bhaskara Jyothi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f7c986e104.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+          <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h4 class="text-uppercase">Hello I’m</h4>
+				<h1 class="d2c_title"> <span>Jyothi</span> Nainala</h1>
+				<h3 class="d2c_subtitle text-uppercase">Cybersecurity Analyst/SOC Analyst</h3>
+                
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/jyothinainala/" target="_blank"><i class="fab fa-linkedin"></i></a> <a href="https://github.com/JyothiNainala" target="_blank"> <i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+    </div>
+    <!-- about section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h2 class="sub-title">Hey There! I'm Jyothi Nainala</h2>
+                    <p>I’m a dedicated and detail-oriented Cybersecurity Analyst with a foundation in threat detection, incident response, and system security. Through hands-on projects, certifications, and self-study, I am committed to ensuring the safety of systems, networks, and data
+                    </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Soft Skills</p>
+                            <!-- <p class="tab-links " onclick="opentab('experience')">Experience</p> -->
+                             
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links " onclick="opentab('experience')">Resume</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>Active listening</li>
+                                <li>Time management</li>
+                                <li>Communication</li>
+                                <li>Responsibility</li>
+                                <li>Organization</li>
+                                <li>Flexibility</li>
+                               
+                            </ul>
+                        </div>
+                       
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>July 2024 to October 2024</span><br>Perscholas(Cybersecurity)</li>
+                                 <li><span>2005-2009</span><br>Bachelors of Engineering , Andhra University , India</li>
+                                 
+                            </ul>
+                        </div>
+                           <div class="tab-contents" id="experience">
+                            <a href="images/Jyothi-Resume.pdf" download class="btn btn2">Download Resume</a> 
+                        </div>
+                </div>
+            </div>
+
+        </div> 
+
+    </div>
+    <!---------------skills----------->
+    <div id="services" >
+        <div class="container">
+            <h1 class="sub-title">Technical Skills</h1>
+            <div class="services-list">
+                <img class="splunk" src="images/splunkicon.png" alt="Splunk" />
+                <!-- <img   src="https://img.icons8.com/?size=100&id=49188&format=png&color=000000" alt="Splunk" /> -->
+                <img   src="images/Wireshark.png" alt="Wireshark" />
+                <img   src="images/BurpSuite.jpg" alt="JavaScript" />
+                <img   src="images/nmaplogo.png" alt="ReactJS" />
+                <img   src="https://img.icons8.com/fluency/96/visual-studio.png" alt="Vscode" />
+              <img   src="https://img.icons8.com/color/96/github--v1.png" alt="GIT" />       
+
+          
+        </div>        
+        </div>
+    </div>
+    <!-- ---------projects---------- -->
+    <!-- <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png"/>
+                    <div class="layer" >
+                        <h3>Tic-Tac-Toe Game</h3>
+                        <p>The first player to get 3 of her marks in 
+                            a row (up, down, across, or diagonally) is the winner.</p>
+                        <a href="https://wondrous-travesseiro-75d252.netlify.app/tictactoe/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png"/>
+                    <div class="layer" >
+                        <h3>Check-Before-Cook App</h3>
+                        <p>Search for your favourite recipes or get popular recipes and instructions to make it </p>
+                        <a href="https://kavithachunduri-check-before-cook.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png"/>
+                    <div class="layer" >
+                        <h3>Mern Blog</h3>
+                        <p>A full crud blog  where you can get all blogs or write or edit or delete a blog </p>
+                        <a href="https://kavitha-mern-blog.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-4.png"/>
+                    <div class="layer" >
+                        <h3>KibPix</h3>
+                        <p>A app which features popular, trending ,toprated movies and tvshow  details along with a search option for users to search for their favourites  </p>
+                        <a href="https://kibpix.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div> -->
+    
+    <!-- ---------certifications---------- -->
+    <div id="certifications" > 
+        <div class="container">
+            <h1 class="sub-title">Certifications</h1>
+            <div class="services-list">
+                
+               
+
+          <img src="images\CySA+.png"  alt="CompTIA CySA+" />
+          <img src="images\splunk.png"  alt="Splunk core certified user" />
+          <img src="images\CySA+.png"  alt="CompTIA CySA+" />
+          <img src="images\CySA+.png"  alt="CompTIA CySA+" />
+        </div>
+  </div>
+  </div>
+    <!---------------------contact info -------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>nbjnainala@gmail.com</p>
+                    <p>331-901-7331</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/jyothinainala/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                       <a href="images/Jyothi-Resume.pdf" download class="btn btn2">Download Resume</a> 
+                </div>
+                <div class="contact-right">
+                      <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+           <p><a href="https://github.com/JyothiNainala" target="_blank"> <i class="fa-brands fa-github"></i></a> Github </p>
+        </div>
+    </div>
+    
+    <script>
+        let tablinks = document.getElementsByClassName("tab-links");
+        let tabcontents= document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+                
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+      let sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+    
+    
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxW9SN3qXcELznYj1h1I1Iwi_mI7oucGaQR8waNaKbfkpm6B5jlAQSqzwxuLgcvJ5sD/exec'
+        const form = document.forms['submit-to-google-sheet']
+         const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
